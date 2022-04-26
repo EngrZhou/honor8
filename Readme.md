@@ -1,10 +1,10 @@
 ## honor8
-»ªÎªÈÙÒ«8È«ÍøÍ¨Ë¢ÈëµÚÈı·½ROMºó»áµ¼ÖÂµçĞÅ¿¨Í¨»°ÎŞÉùÒô£¬ÒòÎªÓïÒôÍ¨»°Ê¹ÓÃ2G/3GÍøÂç£¬ÈÙÒ«8¶Ô¶ÔµçĞÅ2G/3G£¨CDMA/CDMA2000£©µÄÖ§³Ö²ÉÓÃµÄÊÇÍâ¹Ò»ù´øĞ¾Æ¬£¬¿ÉÄÜµ¼ÖÂÁËOpen KirinµÄ²»Ö§³Ö¡£ÈôÒªÊ¹ÓÃ4GÍøÂçÍ¨»°Ğè¿ªÆôVoLTE£¬µ«Open Kirin¹Ù·½Ã»´òËãÖ§³ÖVoLTE£¨Ã²ËÆÈÙÒ«8Ò²²»Ö§³ÖVoLTE£©¡£
+åä¸ºè£è€€8å…¨ç½‘é€šåˆ·å…¥ç¬¬ä¸‰æ–¹ROMåä¼šå¯¼è‡´ç”µä¿¡å¡é€šè¯æ— å£°éŸ³ï¼Œå› ä¸ºè¯­éŸ³é€šè¯ä½¿ç”¨2G/3Gç½‘ç»œï¼Œè£è€€8å¯¹å¯¹ç”µä¿¡2G/3Gï¼ˆCDMA/CDMA2000ï¼‰çš„æ”¯æŒé‡‡ç”¨çš„æ˜¯å¤–æŒ‚åŸºå¸¦èŠ¯ç‰‡ï¼Œå¯èƒ½å¯¼è‡´äº†Open Kirinçš„ä¸æ”¯æŒã€‚è‹¥è¦ä½¿ç”¨4Gç½‘ç»œé€šè¯éœ€å¼€å¯VoLTEï¼Œä½†Open Kirinå®˜æ–¹æ²¡æ‰“ç®—æ”¯æŒVoLTEï¼ˆè²Œä¼¼è£è€€8ä¹Ÿä¸æ”¯æŒVoLTEï¼‰ã€‚
 
 ## Unlock
 * adb shell getprop
 * adb reboot bootloader
-* fastboot oem unlock 9297843358022705
+* fastboot oem unlock â€ª5307522458170742â€¬
 
 ## Honor 8  Android 8.0  EMUI 8.0:
 * adb reboot bootloader
@@ -48,14 +48,14 @@ xposed-uninstaller*.zip from https://dl-xda.xposed.info/framework/: Can be flash
 /data/hw_init/version/special_cust/EVA-AL00/all/cn/app
 
 
-## ½âÃÜData·ÖÇø£º
+## è§£å¯†Dataåˆ†åŒºï¼š
 * adb reboot bootloader
 * fastboot flash recovery_ramdisk huawei-honor-8-em8_0-twrp3.2.1-7to-recovery-8.5.18.img
 * fastboot reboot
 * adb reboot recovery
-ÈıÇåDalvik/ART Cache¡¢Cache¡¢Data£¬¸ñÊ½»¯Data£¬¸ß¼¶¡ª¡ªÒÆ³ıDataÇ¿ÖÆ¼ÓÃÜ
+ä¸‰æ¸…Dalvik/ART Cacheã€Cacheã€Dataï¼Œæ ¼å¼åŒ–Dataï¼Œé«˜çº§â€”â€”ç§»é™¤Dataå¼ºåˆ¶åŠ å¯†
 
-## Ë¢ÈëµÚÈı·½ROM£¨ĞëÏÈÒÆ³ıDATAÇ¿ÖÆ¼ÓÃÜ£©£º
+## åˆ·å…¥ç¬¬ä¸‰æ–¹ROMï¼ˆé¡»å…ˆç§»é™¤DATAå¼ºåˆ¶åŠ å¯†ï¼‰ï¼š
 * adb reboot bootloader
 * fastboot flash system openkirin_rros_beta3.img
 * fastboot reboot
